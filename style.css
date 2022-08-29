@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto.ttf);
+}
+
+body {
+    font-family: Roboto;
+}
+
+.top-bar {
+    padding: 0 10vw;
+    background-color: #242424;
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+
+.top-bar ul li {
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.nav-bar {
+    background-color: black;
+    height: 100px;
+    padding: 0 10vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar ul {
+    align-items: flex-end;
+}
+
+.nav-bar ul li {
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.welcome {
+    background-image: url(welcome.webp);
+    height: 564px;
+}
+
+.filter {
+    height: 100%;
+    background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+    display:flex;
+    align-items: center;
+}
+
+.welcome-text {
+    color: white;
+    width: 800px;
+    margin-left: 10vw;
+}
+
+.blue-bar {
+    width: 100px;
+    color: #004cff;
+    background-color: #004cff;
+    height: 2px;
+    border-radius: 2px;
+    margin: 10px 0;
+
+}
+
+.welcome-text h2 {
+    font-size: 1rem;
+}
+
+.welcome-info {
+    background-color: white;
+    color: #1b294a;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.welcome-info:hover{
+    background-color: #1b294a;
+    color: white;
+}
