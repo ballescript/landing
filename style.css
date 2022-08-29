@@ -97,3 +97,43 @@ ul {
     background-color: #1b294a;
     color: white;
 }
+
+.categories h3 {
+
+    text-align: center;
+    margin: 40px auto;
+}
+
+.blue-text {
+    color: #004cff;
+    cursor: pointer;
+}
+
+.categories {
+    padding: 0 10vw;
+}
+
+.category {
+    height: 80px;
+    min-width: 220px;
+    background-color: #1b294a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.program-amount {
+    font-size: .8rem;
+    color: #f46e44;
+}
+
+.category-button {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    gap: 20px;
+}
