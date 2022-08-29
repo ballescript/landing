@@ -137,3 +137,34 @@ ul {
     margin-bottom: 40px;
     gap: 20px;
 }
+
+.popular {
+    background-color: #1b1b1b;
+    padding: 0 10vw;
+}
+
+.popular-title {
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.popular-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.popular-button {
+    width: 240px;
+    background-color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 4px;
+    color: #1b294a;
+    font-weight: 600;
+    cursor: pointer;
+}
