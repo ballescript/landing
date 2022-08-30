@@ -252,8 +252,19 @@ ul {
     justify-content: center;
     gap: 40px;
     margin-top: 60px;
+    text-align: center;
 }
 
 .why-icons img {
     height: 120px;
+}
+
+.learning-model {
+    padding: 60px 10vw;
+}
+
+.learning-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
