@@ -81,10 +81,10 @@ ul {
     font-size: 1rem;
 }
 
-.welcome-info {
+.round-button {
     background-color: white;
     color: #1b294a;
-    border: none;
+    border: 1px solid white;
     border-radius: 20px;
     padding: 10px 20px;
     margin-top: 20px;
@@ -93,7 +93,7 @@ ul {
     transition: all .2s ease-in-out;
 }
 
-.welcome-info:hover{
+.round-button:hover{
     background-color: #1b294a;
     color: white;
 }
@@ -225,4 +225,20 @@ ul {
 .more-info {
     color:#004cff;
     font-size: .8rem;
+}
+
+.action-call {
+    text-align: center;
+    background-color:#1b294a;
+    color: white;
+    padding: 60px 10vw;
+}
+
+.action-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.sub-action {
+    font-size: 1.5rem;
 }
