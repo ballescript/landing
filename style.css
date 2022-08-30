@@ -114,6 +114,7 @@ ul {
 }
 
 .category {
+    /* border: 1px solid #1b294a; */
     height: 80px;
     min-width: 220px;
     background-color: #1b294a;
@@ -123,6 +124,15 @@ ul {
     justify-content: center;
     align-items: center;
     border-radius: 4px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    
+}
+
+.category:hover{
+    background-color: white;
+    color: #1b294a;
+    text-shadow: 1px 1px 1px gray;
 }
 
 .program-amount {
@@ -167,4 +177,52 @@ ul {
     color: #1b294a;
     font-weight: 600;
     cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.popular-button:hover{
+    background-color: #1b294a;
+    color: white;
+}
+
+.banner-programs {
+    padding: 60px 10vw;
+    font-weight: 600;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.banner-program {
+    width: 280px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.banner-program:hover {
+    transform: scale(1.1)
+}
+
+.banner-image {
+    width: 100%;
+}
+
+.duration {
+    font-size: .8rem;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.calendar-icon{
+    width: 16px;
+    margin-top: -2px;
+    margin-right: 2px;
+
+}
+
+.more-info {
+    color:#004cff;
+    font-size: .8rem;
 }
