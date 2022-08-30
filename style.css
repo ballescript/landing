@@ -347,7 +347,7 @@ footer a{
     font-size: 20px;
 }
 .subfooter {
-    margin-bottom: 40px;
+    padding-bottom: 60px;
     width: 80vw;
     margin: auto;
 }
