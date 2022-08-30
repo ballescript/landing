@@ -27,8 +27,12 @@ ul {
     padding: 10px 20px;
     color: white;
     cursor: pointer;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;  
     text-align: center;
 }
+
 
 .nav-bar {
     background-color: black;
@@ -40,17 +44,23 @@ ul {
     justify-content: space-between;
 }
 
-.nav-bar ul {
-    align-items: flex-end;
-}
-
 .nav-bar ul li {
     padding: 0 20px;
     cursor: pointer;
+    transition: all .2s ease-in-out;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
 }
+
+/* .nav-bar ul li:hover {
+    transform: scale(1.1);
+} */
 
 .welcome {
     background-image: url(welcome.webp);
+    background-position: center;
     height: 564px;
 }
 
@@ -64,7 +74,7 @@ ul {
 .welcome-text {
     color: white;
     width: 800px;
-    margin-left: 10vw;
+    margin: 0 10vw;
 }
 
 .blue-bar {
@@ -74,7 +84,7 @@ ul {
     height: 2px;
     border-radius: 2px;
     margin: 10px 0;
-
+    border: 1px solid #004cff;
 }
 
 .welcome-text h2 {
@@ -116,7 +126,6 @@ ul {
 .category {
     /* border: 1px solid #1b294a; */
     height: 80px;
-    min-width: 220px;
     background-color: #1b294a;
     color: white;
     display: flex;
@@ -126,7 +135,9 @@ ul {
     border-radius: 4px;
     cursor: pointer;
     transition: all .2s ease-in-out;
-    
+    flex: 1;
+    text-align: center;
+    padding: 0 20px;
 }
 
 .category:hover{
@@ -143,6 +154,7 @@ ul {
 .category-button {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 10px;
     gap: 20px;
 }
@@ -160,16 +172,17 @@ ul {
 
 .popular-buttons {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
     margin-top: 40px;
 }
 
 .popular-button {
-    width: 240px;
+    width: 200px;
     background-color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px 20px;
     border-radius: 4px;
     color: #1b294a;
     font-weight: 600;
@@ -248,6 +261,7 @@ ul {
 
 .why-icons {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 40px;
@@ -271,6 +285,7 @@ ul {
 
 .model-columns {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .model-column {
@@ -299,7 +314,7 @@ footer hr {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    width: 90vw;
+    width: 80vw;
     gap: 5vw;
 }
 .footer-div {
@@ -335,4 +350,49 @@ footer a{
     margin-bottom: 40px;
     width: 80vw;
     margin: auto;
+}
+
+@media only screen and (max-width: 800px) {
+    .menu-hide {
+        display: none;
+    }
+
+    .top-bar {
+        padding: 0 ;
+    }
+
+    .nav-bar {
+        padding: 0 5vw;
+
+    }
+
+    .welcome-text {
+        margin: 0 5vw;
+    }
+
+    .categories {
+        padding: 60px 5vw;
+    }
+
+    .popular {
+        padding: 60px 5vw;
+    }
+
+    .banner-programs {
+        padding: 60px 5vw;
+    }
+
+    .action-call {
+        padding: 60px 5vw;
+    }
+
+    .why-choose {
+        padding: 60px 5vw;
+    }
+
+    .learning-model {
+        padding: 60px 5vw;
+    }
+    
+   
 }
