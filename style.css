@@ -268,3 +268,19 @@ ul {
     font-weight: bold;
     margin-bottom: 10px;
 }
+
+.model-columns {
+    display: flex;
+}
+
+.model-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.model-column img {
+    height: 150px;
+    margin: 0 auto 40px auto;
+}
