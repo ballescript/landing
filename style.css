@@ -33,6 +33,10 @@ ul {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 .nav-bar {
     background-color: black;
@@ -235,6 +239,7 @@ ul {
 .more-info {
     color:#004cff;
     font-size: .8rem;
+    padding-top: 2px;
 }
 
 .action-call {
